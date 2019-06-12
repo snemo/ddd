@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'groovy'
+}
+
+allprojects {
+    group = 'com.nuxplanet.library'
+    version = '0.0.1-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+}
